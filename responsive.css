@@ -1,0 +1,43 @@
+/* untuk tablet */
+@media all and (max-width: 1000px) {
+  .wrapper {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .kolom h3 {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 670px){
+    .wrapper {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .header {
+    text-align: left;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .header h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .header p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
