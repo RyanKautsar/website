@@ -54,6 +54,7 @@
   .header img {
     width: 400px;
     height: 300px;
+    display: flex;
   }
 
   .contents-item {
@@ -76,6 +77,8 @@
 
   .header {
     text-align: left;
+    margin: 0;
+    padding: 0;
   }
 
   .menu {
@@ -86,10 +89,23 @@
     font-size: 24px;
     line-height: 36px;
     padding-top: 30px;
+    
   }
 
   .header p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .atas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
