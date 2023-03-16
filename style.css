@@ -40,8 +40,7 @@ body nav {
   margin: auto;
   display: flex;
   line-height: 80px;
-  position: sticky;
-  position: -webkit-sticky; 
+  position: sticky; 
   top: 0;
   background: #FFFFFF;
   z-index: 1;
