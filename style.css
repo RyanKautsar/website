@@ -72,6 +72,18 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 20px;
+  padding: 21px 0;
+  display: none;
+}
+
+.menu-icon img {
+  width: 30px;
+}
+
 section {
   margin: auto;
   display: flex;
